@@ -360,5 +360,5 @@ const plants = [
       "African Violets are popular indoor flowering plants known for their vibrant, velvety flowers. They prefer indirect light and moderate watering.",
   },
 ];
-console.log(plants);
+
 export default plants;
