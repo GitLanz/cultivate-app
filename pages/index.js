@@ -22,8 +22,10 @@ export default function HomePage() {
 }
 
 const PlantList = styled.ul`
+  all: unset;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px 10px;
   list-style: none;
 `;
