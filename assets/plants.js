@@ -3,7 +3,8 @@ const plants = [
     id: "1",
     name: "Snake Plant",
     botanicalName: "Sansevieria trifasciata",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -14,7 +15,8 @@ const plants = [
     id: "2",
     name: "Fiddle Leaf Fig",
     botanicalName: "Ficus lyrata",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring"],
@@ -25,7 +27,8 @@ const plants = [
     id: "3",
     name: "Aloe Vera",
     botanicalName: "Aloe barbadensis miller",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Summer"],
@@ -36,7 +39,8 @@ const plants = [
     id: "4",
     name: "Spider Plant",
     botanicalName: "Chlorophytum comosum",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -47,7 +51,8 @@ const plants = [
     id: "5",
     name: "Peace Lily",
     botanicalName: "Spathiphyllum",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Full Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -58,7 +63,8 @@ const plants = [
     id: "6",
     name: "Rubber Plant",
     botanicalName: "Ficus elastica",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Fall"],
@@ -69,7 +75,8 @@ const plants = [
     id: "7",
     name: "ZZ Plant",
     botanicalName: "Zamioculcas zamiifolia",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -80,7 +87,8 @@ const plants = [
     id: "8",
     name: "Monstera Deliciosa",
     botanicalName: "Monstera deliciosa",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -91,7 +99,8 @@ const plants = [
     id: "9",
     name: "Pothos",
     botanicalName: "Epipremnum aureum",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -102,7 +111,8 @@ const plants = [
     id: "10",
     name: "Boston Fern",
     botanicalName: "Nephrolepis exaltata",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -113,7 +123,8 @@ const plants = [
     id: "11",
     name: "Orchid",
     botanicalName: "Orchidaceae",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -124,7 +135,8 @@ const plants = [
     id: "12",
     name: "Jade Plant",
     botanicalName: "Crassula ovata",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring", "Fall"],
@@ -135,7 +147,8 @@ const plants = [
     id: "13",
     name: "Philodendron",
     botanicalName: "Philodendron spp.",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -146,7 +159,8 @@ const plants = [
     id: "14",
     name: "Cactus",
     botanicalName: "Cactaceae",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Summer"],
@@ -157,7 +171,8 @@ const plants = [
     id: "15",
     name: "Lavender",
     botanicalName: "Lavandula",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring"],
@@ -168,7 +183,8 @@ const plants = [
     id: "16",
     name: "Succulent",
     botanicalName: "Succulents",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Summer", "Fall"],
@@ -179,7 +195,8 @@ const plants = [
     id: "17",
     name: "Calathea",
     botanicalName: "Calathea spp.",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Full Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -190,7 +207,8 @@ const plants = [
     id: "18",
     name: "Yucca",
     botanicalName: "Yucca",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring"],
@@ -201,7 +219,8 @@ const plants = [
     id: "19",
     name: "Bamboo",
     botanicalName: "Bambusoideae",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring", "Summer"],
@@ -212,7 +231,8 @@ const plants = [
     id: "20",
     name: "Anthurium",
     botanicalName: "Anthurium",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Fall"],
@@ -223,7 +243,8 @@ const plants = [
     id: "21",
     name: "English Ivy",
     botanicalName: "Hedera helix",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Full Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -234,7 +255,8 @@ const plants = [
     id: "22",
     name: "Dumb Cane",
     botanicalName: "Dieffenbachia",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -245,7 +267,8 @@ const plants = [
     id: "23",
     name: "Golden Pothos",
     botanicalName: "Epipremnum aureum",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -256,7 +279,8 @@ const plants = [
     id: "24",
     name: "Peace Lily",
     botanicalName: "Spathiphyllum",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Full Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -267,7 +291,8 @@ const plants = [
     id: "25",
     name: "Areca Palm",
     botanicalName: "Dypsis lutescens",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -278,7 +303,8 @@ const plants = [
     id: "26",
     name: "Swiss Cheese Plant",
     botanicalName: "Monstera adansonii",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -289,7 +315,8 @@ const plants = [
     id: "27",
     name: "Chinese Money Plant",
     botanicalName: "Pilea peperomioides",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
@@ -300,7 +327,8 @@ const plants = [
     id: "28",
     name: "Bird of Paradise",
     botanicalName: "Strelitzia reginae",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "High",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring", "Summer"],
@@ -311,7 +339,8 @@ const plants = [
     id: "29",
     name: "Jade Plant",
     botanicalName: "Crassula ovata",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Low",
     lightNeed: "Full Sun",
     fertiliserSeason: ["Spring", "Fall"],
@@ -322,7 +351,8 @@ const plants = [
     id: "30",
     name: "African Violet",
     botanicalName: "Saintpaulia",
-    imageUrl: "",
+    imageUrl:
+      "https://images.pexels.com/photos/12569708/pexels-photo-12569708.jpeg?auto=compress&cs=tinysrgb&w=1600",
     waterNeed: "Medium",
     lightNeed: "Partial Shade",
     fertiliserSeason: ["Spring", "Summer"],
