@@ -9,9 +9,9 @@ export default function PlantCard({ name, botanicalName, image }) {
           <StyledImage
             src={image}
             alt={name}
-            width="150"
-            height="150"
-            // fill="true"
+            width={150}
+            height={150}
+            priority // this preloads the image
             sizes="(max-width: 150px)"
           ></StyledImage>
         </PlantImageWrapper>
@@ -31,7 +31,6 @@ const PlantCardWrapper = styled.div`
 `;
 
 const PlantImageWrapper = styled.div`
-  //display: flex;
   width: 150px;
   border: 2px solid purple;
   text-align: left;
