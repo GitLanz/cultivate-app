@@ -2,6 +2,10 @@ import { useRouter } from "next/router";
 import plants from "@/assets/plants.js";
 import Image from "next/image";
 import styled from "styled-components";
+import React from "react";
+import WaterNeed from "@/components/icons/WaterNeed.js";
+import LightNeed from "@/components/icons/LightNeed.js";
+import FertiliserSeason from "@/components/icons/FertiliserSeason.js";
 
 export default function PlantDetails() {
   const router = useRouter();
@@ -9,7 +13,7 @@ export default function PlantDetails() {
 
   const plant = plants.find((plant) => plant.id === id);
 
-  if (!id) return null;
+  if (!plant) return <h1>Plant not found.</h1>;
 
   const {
     name,
@@ -36,22 +40,18 @@ export default function PlantDetails() {
       <h1>{name}</h1>
       <h2>{botanicalName}</h2>
       <p>{description}</p>
-      <Drop>{waterNeed}</Drop>
-      <Sun>{lightNeed}</Sun>
-      <Season>{fertiliserSeason}</Season>
+      <p>Water need: </p>
+      <WaterNeed waterNeed={waterNeed} />
+      <p>Light need: </p>
+      <LightNeed lightNeed={lightNeed} />
+      <p>Fertiliser season: </p>
+      <FertiliserSeason fertiliserSeason={fertiliserSeason} />
     </>
   );
 }
 
 const PlantImageWrapper = styled.div`
+  position: relative;
   width: 300px;
   height: 300px;
-  position: relative;
-  font-size: 0.75rem;
 `;
-
-const Drop = styled.div``;
-
-const Sun = styled.div``;
-
-const Season = styled.div``;

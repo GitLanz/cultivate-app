@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styled from "styled-components";
+import plants from "@/assets/plants";
 
 export default function PlantCard({ name, botanicalName, image }) {
   return (
