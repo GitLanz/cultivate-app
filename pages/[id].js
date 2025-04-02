@@ -6,6 +6,8 @@ import React from "react";
 import WaterNeed from "@/components/icons/WaterNeed.js";
 import LightNeed from "@/components/icons/LightNeed.js";
 import FertiliserSeason from "@/components/icons/FertiliserSeason.js";
+import Link from "next/link";
+import BackArrow from "@/public/circle-chevron-left.svg";
 
 export default function PlantDetails() {
   const router = useRouter();
@@ -27,6 +29,9 @@ export default function PlantDetails() {
 
   return (
     <>
+      <Link href={"/"}>
+        <BackArrow />
+      </Link>
       <PlantImageWrapper>
         <Image
           src={imageUrl}
