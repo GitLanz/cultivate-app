@@ -10,6 +10,7 @@ export default function HomePage() {
         {plants.map((plant) => (
           <li key={plant.id}>
             <PlantCard
+              id={plant.id}
               name={plant.name}
               botanicalName={plant.botanicalName}
               image={plant.imageUrl}
@@ -26,6 +27,6 @@ const PlantList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px 10px;
+  gap: 20px 20px;
   list-style: none;
 `;
