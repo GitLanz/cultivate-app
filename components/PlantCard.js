@@ -1,20 +1,23 @@
 import Image from "next/image";
 import styled from "styled-components";
+import Link from "next/link";
 import plants from "@/assets/plants";
 
-export default function PlantCard({ name, botanicalName, image }) {
+export default function PlantCard({ name, botanicalName, image, id }) {
   return (
     <div>
       <PlantCardWrapper>
         <PlantImageWrapper>
-          <StyledImage
-            src={image}
-            alt={name}
-            width={150}
-            height={150}
-            priority // this preloads the image
-            sizes="(max-width: 150px)"
-          ></StyledImage>
+          <Link href={`/${id}`}>
+            <StyledImage
+              src={image}
+              alt={name}
+              width={150}
+              height={150}
+              priority // this preloads the image
+              sizes="(max-width: 150px)"
+            ></StyledImage>
+          </Link>
         </PlantImageWrapper>
         <h2>{name}</h2>
         <p>{botanicalName}</p>

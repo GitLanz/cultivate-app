@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import plants from "@/assets/plants.js";
 import Image from "next/image";
 import styled from "styled-components";
-import React from "react";
+// import React from "react";
 import WaterNeed from "@/components/icons/WaterNeed.js";
 import LightNeed from "@/components/icons/LightNeed.js";
 import FertiliserSeason from "@/components/icons/FertiliserSeason.js";

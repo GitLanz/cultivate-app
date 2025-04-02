@@ -10,6 +10,7 @@ export default function HomePage() {
         {plants.map((plant) => (
           <li key={plant.id}>
             <PlantCard
+              id={plant.id}
               name={plant.name}
               botanicalName={plant.botanicalName}
               image={plant.imageUrl}
